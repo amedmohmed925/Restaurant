@@ -398,6 +398,10 @@ right: 30px;
     }
     .home .content .small-card-load{
         margin-top: 100px;
+        position: relative;
+        /* top: 50%; */
+        right: 50%;
+        transform: translate(60%);
     }
 
 }
@@ -2022,7 +2026,7 @@ align-items: center;
 .special-offer .ptn-menu{
     margin-bottom: 100px;
     margin-top: 50px;
-    margin-left: 50%;
+    /* margin-left: 50%; */
     transform: translate(-50%);
     border: 2px solid #e4c590;
     border-radius: 0;
