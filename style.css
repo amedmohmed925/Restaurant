@@ -2554,7 +2554,7 @@ padding-top: 10px;
         margin: 8px;
     }
     .reservation .big-card .big-one .text-area textarea{
-        width: 87%;
+        width: 91%;
         margin-top: 10px;
     }
     .reservation .big-card .big-one .ptn button{
@@ -2568,7 +2568,7 @@ padding-top: 10px;
         width: 100%;
     }
     .reservation .big-card .big-one .date input[type="date"]{
-        width: 87%;
+        width: 91%;
     }
 }
 @media (min-width: 481px)and (max-width:768px){
@@ -2673,7 +2673,7 @@ padding-top: 10px;
 .strength{
 width: 100%;
 position: absolute;
-top: 7032px;
+top: 6657px;
 background-color: #171819;
 }
 .strength .head{
@@ -2763,7 +2763,7 @@ background-color: #151616;
 @media (min-width: 481px)and (max-width:768px){
     .strength{
         top: 11050px;
-    padding-top: 840px;
+        padding-top: 334px;
 }
     }
     @media (min-width: 628px)and (max-width:768px){
@@ -2775,19 +2775,20 @@ background-color: #151616;
 
 @media (min-width:769px )and (max-width:1025px){
     .strength{
-        padding-top: 100px;
-        top: 10920px;
-    }
+    
+    /* padding-top: 100px; */
+    top: 10616px;
+}
     }
 
 @media (min-width:1025px )and (max-width:1200px){
     .strength{
-        top: 8070px;
+        top: 7731px;
     }
 }
 @media (min-width:1201px )and (max-width:1399px){
     .strength{
-        margin-top: 502px;
+        margin-top: 718px;
     }
 }
 /* End media screen */
@@ -3439,6 +3440,9 @@ footer .copyright a{
         width: 100%;
     background-position: center;
     background-size: auto;
+    }
+    footer .content-footer .text-card .footer-card button{
+        font-size: 10px;
     }
     footer .content-footer{
         display: flex;
